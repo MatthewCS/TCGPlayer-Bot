@@ -1,2 +1,4 @@
 __pycache__/
+.git/
+.gitattributes
 keys.json

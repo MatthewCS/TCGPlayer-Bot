@@ -13,7 +13,10 @@ async def bot_help(msg, cmd):
                            "\ntcg.search The Scarab God --category Magic`" +
                            "\noptional arguments:" +
                            "\n\tcategory: What is the item from? Makes the search much faster. Ex:" +
-                           "\n\t\t`--category Magic` `--category Pokemon` `--category Funko`")
+                           "\n\t\t`--category Magic` `--category Pokemon` `--category Funko`" +
+                           "\n" +
+                           "\n**tcg.categories**" +
+                           "\n\tDisplay all categories that can be searched from")
 
 async def bot_die(msg, cmd):
     if msg.author.id == 498241529304055818:
